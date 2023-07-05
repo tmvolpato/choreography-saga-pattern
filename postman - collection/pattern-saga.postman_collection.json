@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "44c5b889-cfc0-4721-ba93-fa940bd2a4a3",
+		"name": "pattern-saga",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "433754"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/api/sales",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"productId\": 1,\n    \"userId\": 1,\n    \"value\": 10.00,\n    \"quantity\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/sales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"sales"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
