@@ -51,6 +51,10 @@ The image represents a successful flow of a distributed transaction. This image 
   <img src="/img/case_success/sale_table_2.png" alt="success-flow" />
 </p>
 
+<p align="center">
+  <img src="/img/case_success/sale_status.png" alt="success-flow" />
+</p>
+
 # Fault Flow
 
 In the Choreographed Saga Pattern, the failure flow represents a scenario where an issue occurred during the execution of a distributed transaction. This flow indicates the interruption or failure of one or more transaction steps, signaling that the transaction was not successfully completed. In the context of the Choreographed Saga Pattern, identifying the failure flow is crucial for participating services to recognize any problems or errors that may have arisen during the distributed transaction process. This enables them to take necessary measures to address the situation and restore system consistency.
