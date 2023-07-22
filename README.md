@@ -64,3 +64,49 @@ In the Choreographed Saga Pattern, the failure flow represents a scenario where 
 <p align="center">
   <img src="/img/fault_flow.png" alt="fault-flow" />
 </p>
+
+## Rollback inventory - Out of stock
+
+<p align="center">
+  <img src="/img/case_fail/start_db_inventories.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/start_db_user.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/start_sales.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/db_sales_quantity_20.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/db_user_debit.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/start_db_payment.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/debit_db_inventories.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/out_of_stock.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/error_out_of_stock.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/sale_canceled.png" alt="fault-flow" />
+</p>
+
+<p align="center">
+  <img src="/img/case_fail/status_canceled.png" alt="fault-flow" />
+</p>
